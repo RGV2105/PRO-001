@@ -4,9 +4,11 @@ using namespace std;
 int main ()
 {
 	float a,s,d;
-	cin>>s>>d;
-	a=s+d;
-	cout<<a;
+	cout>>"Ingrese 2 Numero S D :";
+	cin>>S>>D;
+	A=S+D;
+	cout<<"El resultado es :";
+	cout<<A;
 	return 0;
 }
 
