@@ -10,25 +10,25 @@
 using namespace std;
 int main(){
 	
-	int di,ve,ci;
-	float diez,vein,ciq,total;
+	int RB_di,RB_ve,RB_ci;
+	float RB_diez,RB_vein,RB_ciq,RB_total;
 	
 	cout<<"cuantas monedas de 10ctv son"<<endl;
-	cin>>di;
+	cin>>RB_di;
 	cout<<"cuantas monedas de 25ctv son"<<endl;
-	cin>>ve;
+	cin>>RB_ve;
 	cout<<"cuantas monedas de 50ctv son"<<endl;
-	cin>>ci;
+	cin>>RB_ci;
 	
-	diez=di*0.10;
-	vein=ve*0.25;
-	ciq=ci*0.50;
-	total=diez+vein+ciq;
+	RB_diez=RB_di*0.10;
+	RB_vein=RB_ve*0.25;
+	RB_ciq=RB_ci*0.50;
+	RB_total=RB_diez+RB_vein+RB_ciq;
 	
-	cout<<"el tolal de las monedas de 10ctv es: $"<<diez<<endl;
-	cout<<"el tolal de las monedas de 25ctv es: $"<<vein<<endl;
-	cout<<"el tolal de las monedas de 50ctv es: $"<<ciq<<endl;
-	cout<<"el valor total es: $"<<total<<endl;
+	cout<<"el tolal de las monedas de 10ctv es: $"<<RB_diez<<endl;
+	cout<<"el tolal de las monedas de 25ctv es: $"<<RB_vein<<endl;
+	cout<<"el tolal de las monedas de 50ctv es: $"<<RB_ciq<<endl;
+	cout<<"el valor total es: $"<<RB_total<<endl;
 	
 cout<<"//================================================"<<endl;
 cout<<"//==>Nombre del programa: Cuenta monedas"<<endl;
