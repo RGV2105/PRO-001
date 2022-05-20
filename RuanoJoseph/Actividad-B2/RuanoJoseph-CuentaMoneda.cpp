@@ -1,54 +1,68 @@
+//================================================
+//==>Nombre del programa: Cuenta Moneda
+//==>Archivo : RuanoJoseph-CuentaMoneda.cpp
+//==>Autor: Ruano Jama Joseph
+//==>Fecha de elaboración: 2022-04-22
+//==>Fecha ultima actualización: 2022-05-20
+//=================================================
 #include<iostream>
 using namespace std;
 
 int main()
 {
-   int r,r1=0,r2=0,r3=0,r4=0;
+   int rj_r,rj_r1=0,rj_r2=0,rj_r3=0,rj_r4=0;
    
-   float j,j1=0,j2=0,j3=0,j4=0,s=0.10, s1=0.25, s2=0.50;
+   float rj_j,rj_j1=0,rj_j2=0,rj_j3=0,rj_j4=0,rj_s=0.10,rj_s1=0.25,rj_s2=0.50;
    
-   cout<<"Ingrese la cantidad de monedas: "; cin>>r;
+   cout<<"Ingrese la cantidad de monedas: "; cin>>rj_r;
    
   do{
 
-    cout<<"Ingrese el tipo de la moneda t=";cin>>j;
+    cout<<"Ingrese el tipo de la moneda t=";cin>>rj_j;
     
-    r1=r1+1;
+    rj_r1=rj_r1+1;
     
-    j1=j1+1;
+    rj_j1=rj_j1+1;
     
-    if(j==s){
+    if(rj_j==rj_s){
     	
-        r2=r2+1;
+        rj_r2=rj_r2+1;
         
-        j2=j2+j;
+        rj_j2=rj_j2+rj_j;
     }
 
-      if(j==s1){
+      if(rj_j==rj_s1){
       	
-          r3=r3+1;
+          rj_r3=rj_r3+1;
           
-          j3=j3+j;
+          rj_j3=rj_j3+rj_j;
       }
 
 
-       if(j==s2){
+       if(rj_j==rj_s2){
        	
-          r4=r4+1;
+          rj_r4=rj_r4+1;
           
-          j4=j4+j;
+          rj_j4=rj_j4+rj_j;
        }
        
-  }while(r1<r);
+  }while(rj_r1<rj_r);
   
 
 
-cout<<"Usted cuenta con "<<r1<<  " Moneda y un total de "<<r1<<"  moneda"<<endl;
+cout<<"Usted cuenta con "<<rj_r1<<  " Moneda y un total de "<<rj_r1<<"  moneda"<<endl;
 
-cout<<"Usted cuenta con "<<r2<<  " Moneda de $0.10 que suman    "<<r2<<"  moneda"<<endl;
+cout<<"Usted cuenta con "<<rj_r2<<  " Moneda de $0.10 que suman    "<<rj_r2<<"  moneda"<<endl;
 
-cout<<"Usted cuenta con "<<r3<<  " Moneda de $0.25 que suman "<<r3<<"  moneda"<<endl;
+cout<<"Usted cuenta con "<<rj_r3<<  " Moneda de $0.25 que suman "<<rj_r3<<"  moneda"<<endl;
 
-cout<<"Usted cuenta con "<<r4<<  " Moneda de $0.50 que suman "<<r4<<"  moneda"<<endl;
+cout<<"Usted cuenta con "<<rj_r4<<  " Moneda de $0.50 que suman "<<rj_r4<<"  moneda"<<endl;
+cout<<"//================================================"<<endl;
+cout<<"//==>Nombre del programa: Cuenta Moneda"<<endl;
+cout<<"//==>Archivo : RuanoJoseph-CuentaMoneda.cpp"<<endl;
+cout<<"//==>Autor: Ruano Jama Joseph"<<endl;
+cout<<"//==>Fecha de elaboración: 2022-04-22"<<endl;
+cout<<"//==>Fecha ultima actualización: 2022-05-20"<<endl;
+cout<<"//=================================================";
 return 0;
 }
