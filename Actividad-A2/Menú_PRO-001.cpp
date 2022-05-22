@@ -7,7 +7,7 @@
 #include<stdlib.h>
 using namespace std;
 #include "rj_libreria.h"
-//#include "BB_libreria.h"
+#include "rb_libreria.h"
 //#include "CC_libreria.h"
 //#include "DD_libreria.h"
 //#include "DD_libreria.h"
@@ -33,7 +33,7 @@ int main()
 				case 1:
 					//TRABAJO DEL INTEGRANTE 1.
 					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO de Rene Balseca "<<endl;
-					//rb_menu();			
+RB_menu();			
 					break;
 				case 2:
 					//TRABAJO DEL INTEGRANTE 2.
