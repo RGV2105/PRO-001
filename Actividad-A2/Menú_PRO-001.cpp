@@ -33,7 +33,7 @@ int main()
 				case 1:
 					//TRABAJO DEL INTEGRANTE 1.
 					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO de Rene Balseca "<<endl;
-RB_menu();			
+					RB_menu();			
 					break;
 				case 2:
 					//TRABAJO DEL INTEGRANTE 2.
