@@ -199,14 +199,14 @@ int RB_menu()
 
 	do{
 			system("clear");
-			cout<<"**************PROGRAMAS DE PATA JENIFFER**************"<<endl<<endl;
+			cout<<"**************PROGRAMAS DE RENE BALSECA**************"<<endl<<endl;
 			cout<<"1.- SUMA VARIOS NUMEROS \n";
 			cout<<"2.- COMPARA 2 NUMEROS.\n";
 			cout<<"3.- PUNTO DE VENTA \n"; 
 			cout<<"4.- CALCULA EDAD. \n";
 			cout<<"5.- MAQUINA CUENTA MONEDA.\n";
 			cout<<"0.- Salir del menu. \n";
-			cout<<" Ingrese una opcion : "; cin>>op; //la variable opp siver para la opcion a escoger
+			cout<<" Ingrese una opcion : ";   cin>>op;
 			switch(op){
 				case 1:
 					system("clear");
@@ -214,7 +214,6 @@ int RB_menu()
 					break;
 				case 2:
 					system("clear");
-					
 					RBCompara();
 					break;
 				case 3:
