@@ -1,27 +1,52 @@
-//================================================
-//==>Nombre del programa: Dar a conocer que edad tiene
-//==>Archivo : RuanoJoseph-Edad.cpp
-//==>Autor: Ruano Jama Joseph
-//==>Fecha de elaboración: 2022-04-22
-//==>Fecha ultima actualización: 2022-05-16
-//=================================================
-#include <iostream> 
+#include <iostream>
 using namespace std;
-int main(){
-	float rj_r1,rj_r2,rj_r;
-	cout<<"Ingrese su Fecha de nacimiento: ";
-	cin>>rj_r1;
-	cout<<"Ingrese el ano actual:";
-	cin>>rj_r2;
-	rj_r=(rj_r1-rj_r2);
-	cout<<"Su Edad es: "<<rj_r<<endl;
-		
-cout<<"	==========================================="<<endl;
-cout<<" //==>Nombre del programa: Dar a conocer que edad tiene"<<endl;
-cout<<"//==>Archivo : RuanoJoseph-Edad.cpp"<<endl;
-cout<<"//==>Autor: Ruano Jama Joseph"<<endl;
-cout<<"//==>Fecha de elaboración: 2022-04-22"<<endl;
-cout<<"//==>Fecha ultima actualización: 2022-05-16"<<endl;
-cout<<"//=================================================";
-           return 0;
-            }
+void calcularEdad( int anac,int meac,int diac,int an,int mn,int dn);
+int main ()
+{
+    int anac;  
+    int meac; 
+    int diac; 
+    int an; 
+    int mn; 
+    int dn; 
+    cout<<"Ingresar la fecha actual: "<<endl;
+    cout << "Ano Actual: ";   
+	cin >> anac;
+    cout << "Mes Actual: ";   
+	cin >> meac;
+    cout << "Dia Actual: ";  
+	cin >> diac;
+    cout<<"Ingresar la fecha de nacimiento: "<<endl;
+    cout << "Ano Nacimiento: ";  
+	cin >> an;
+    cout << "Mes de Nacimiento: ";  
+	cin >> mn;
+    cout << "Dia de Nacimiento: ";  
+	cin >> dn;
+    calcularEdad(anac,meac,diac,an,mn,dn);
+    return 0;
+}
+void calcularEdad( int anac , int meac, int diac, int an, int mn, int dn)
+{
+    int dia , mes;
+    if (diac<dn)
+    {  
+        diac=diac+30; 
+        meac=meac-1; 
+        diac=diac-dn; 
+    }
+    else 
+        dia=diac-dn;
+    if(meac<mn)
+    {   
+        meac=meac+12; 
+        anac=anac-1 ; 
+        mes=meac-mn; 
+    }
+    else 
+        mes = meac - mn; 
+    cout << "La edad es de: "<<endl;
+    cout << " Anos: " <<anac - an << endl; 
+    cout << " Meses: " << mes << endl; 
+    cout << " Dias: " << dia << endl;
+}
