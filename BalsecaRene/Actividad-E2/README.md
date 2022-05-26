@@ -243,6 +243,23 @@ como es un repositorio publico no vas a tener problemas con descargarlo de esta 
 >y revisar con ls
 
 una vez hecho encontraras todos los archivos hechos
+
+como ejecutar los archivos guardados  en BalsecaRene
+------------
+
+1. entramos en la terminal
+1. ls
+1. cd PRO-001
+1. cd BalsecaRene
+1. cd Actividad-E2
+- con cada archivo tienes q ver que nombre tiene el ejecutable y poner:
+
+		./BalsecaRene-compara
+		./BalsecaRene-CuentaMoneda
+		./BalsecaRene-LaEdad
+		./BalsecaRene-PuntoVenta
+		./BalsecaRene-SumaN
+
 ------------
 ## Como Copilar En C++
 ### ejemolo de como crear y copilr en la terminal linux 
@@ -288,20 +305,3 @@ Para ejecutar el programa anterior, se realizará con la siguiente instrucción:
 con esto terminamos y tenemos un proceso funcional el cual se muestra como crear y ejecutar un programa en c++
 
 ------------
-
-como ejecutar los archivos guardados  en BalsecaRene
-------------
-
-1. entramos en la terminal
-1. ls
-1. cd PRO-001
-1. cd BalsecaRene
-1. cd Actividad-E2
-- con cada archivo tienes q ver que nombre tiene el ejecutable y poner:
-
-		./BalsecaRene-compara
-		./BalsecaRene-CuentaMoneda
-		./BalsecaRene-LaEdad
-		./BalsecaRene-PuntoVenta
-		./BalsecaRene-SumaN
-
