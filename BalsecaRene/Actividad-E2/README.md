@@ -14,13 +14,18 @@
 ##ESPECIFICACIONES DE LOS PROGRAMAS
 
 ------------
+
 ### Compara
+Con este programa podemos comparar 2 numeros de los cuales sabremos cual es en mayor y el menor y si son iguales 
+
+##### Descripsion del programa Compara
+
 1. Declaramos las librerías de entrada y salida también ponemos el std  motivo de esta línea, using namespace std, es el de dar acceso al espacio de nombres (namespace) std, donde se encuentra encerrada toda la librería estándar.:  
 
 		<iostream> 
 		using namespace std;
 
-1. Lo primero que hacemos es declarar dos variables de tipo entero llamadas RB_a Y RB_b, estas variables serán usadas para almacenar los números que ingrese el usuario.
+1. Lo primero que hacemos es declarar dos variables de tipo entero llamadas a Y b, estas variables serán usadas para almacenar los números que ingrese el usuario.
 
 		int a,b
 
@@ -30,17 +35,18 @@
 
 3. Con el condicional si entonces, comparamos los dos números para saber si son iguales, en caso de cumplirse la condición enviaremos un mensaje que dirá: “ambos números son iguales”..
 
-		si (a==b){
-		 "mbos números son iguales " 
+		if (a=b)
+		 "ambos números son iguales " 
 
-4. En caso de no cumplirse la condición, nuevamente hacemos una comparación y es para saber si el primer número es mayor que el segundo, en caso de cumplirse esa condición lo que hacemos es mostrar un mensaje indicando que el número mayor es el RB_a. 
-		" El numero mayor es : "
-		" El numero menor es : "
+4. En caso de no cumplirse la condición, nuevamente hacemos una comparación y es para saber si el primer número es mayor que el segundo, en caso de cumplirse esa condición lo que hacemos es mostrar un mensaje indicando que el número mayor es el a. 
+
+		" El numero mayor es : a "
+		" El numero menor es : b "
 
 5. No habiéndose cumplido las dos primeras condiciones el algoritmo pasaría a la opción "else", en ese caso lo que ocurriría es que el número mayor es el segundo y por lo tanto lo mostraremos en pantalla  .
 
-		" El numero mayor es: " 
-		" El numero menor es: " 
+		" El numero mayor es: b " 
+		" El numero menor es: a " 
 
 #### diagrama de flujo de compara
 ![Image text](https://github.com/RGV2105/PRO-001/blob/main/BalsecaRene/ACTIVIDAD-B2-C2/Compara/BalsecaRene-Compara.jpg)
@@ -49,6 +55,9 @@
 ------------
 
 ### Cuenta Moneda
+Con esteprograma podemos contar cuantas monedas tenemos y mostrarnos en total dela sumatoria
+
+##### Descripsion del programa Cuenta Monedas
 
 1. Declaramos las librerías de entrada y salida también ponemos el std  motivo de esta línea, using namespace std, es el de dar acceso al espacio de nombres (namespace) std, donde se encuentra encerrada toda la librería estándar.:  
 
@@ -57,14 +66,14 @@
 
 1. Lo segundo que hacemos es declarar dos variables de tipo entero y flotante.
 
-			int di,ve,ci;
-			float diez,vein,ciq,total
+		int di,ve,ci;
+		float diez,vein,ciq,total
 
 1. Luego con el comando escribir mostramos un mensajes al usuario indicando que digite los números de la moneda y siendo almacenada en este caso serían de 10 ctv, 25 ctv, 50 ctv.
  
-		 "cuantas monedas de 10 ctv son "
-		"cuantas monedas de 25 ctv son"
-		"cuantas monedas de 50 ctv son "
+		" cuantas monedas de 10 ctv son "
+		" cuantas monedas de 25 ctv son "
+		" cuantas monedas de 50 ctv son "
 
 1. Clasificadora de un tipo de moneda: Los números se introducen en una variable del tipo entero, el programa dice la suma total del número de monedas que hay de ese tipo ya sea de 10 ctv, 25 ctv, 50 ctv
 luego se hace una suma total en la que se suma el total de las monedas
@@ -74,7 +83,7 @@ luego se hace una suma total en la que se suma el total de las monedas
 		ciq=ci* 0,50 ;
 		total=diez+vena+ciq;
 
-1. por último se presenta en pantalla
+1. por último se presenta en pantalla el resultado 
 
 		" el tolal de las monedas de 10ctv "
 		" el tolal de las monedas de 25ctv "
@@ -87,6 +96,11 @@ luego se hace una suma total en la que se suma el total de las monedas
 
 ------------
 ###  La Edad
+
+Con este programa podemos saber nuestra edad exacta dependiendo el dia, mes, año de nacimiento junto con el dia, mes, año  de actual con eso nos dara nuentra edad
+
+##### Descripsion del programa La Edad
+
 -  Declaramos las librerías de entrada y salida también ponemos el std motivo de esta línea, using namespace std, es el de dar acceso al espacio de nombres (namespace) std, donde se encuentra encerrada toda la librería estándar:
 
 		<iostream> 
@@ -94,15 +108,14 @@ luego se hace una suma total en la que se suma el total de las monedas
 
 -  Lo segundo que hacemos es declarar dos variables de tipo entero en la que vamos a almacenar los datos:
 
-
 		int aa,an,da,dn,edad,ma,mn;
 
 -   El programa pide que se introduzca por teclado la fecha de nacimiento de la persona y la fecha actual. La lectura por teclado de las dos fechas consiste en leer 6 valores enteros correspondientes al día, mes y año de nacimiento y al día, mes y año actual.
 
 		" ingrese su fecha actual "
 		" formato de dia, mes, año "
-		 " ingrese su fecha de nacimiento "
-		 " formato de dia, mes, año "
+		" ingrese su fecha de nacimiento "
+		" formato de dia, mes, año "
 
 -  La primera operación que hay que realizar para calcular la edad de la persona es restar el año actual al año de nacimiento. Ese valor en principio es la edad de la persona, pero debemos comprobar si el mes de nacimiento ya ha pasado. Si el mes de nacimiento aún no ha llegado habrá que restarle uno a la edad obtenida porque aún no ha cumplido los años. Lo mismo sucede con el día de nacimiento.
 - Por ejemplo, si se introducen estas fechas:
@@ -143,7 +156,11 @@ luego se hace una suma total en la que se suma el total de las monedas
 ![Image text](https://github.com/RGV2105/PRO-001/blob/main/BalsecaRene/ACTIVIDAD-B2-C2/La-Edad/BalsecaRene_LaEdad.jpg)
 
 ------------
-### punto venta
+### Punto Venta
+
+Con este programa podemos tener una factura de modo sensillo del cual solo nenemos el descuento, iva, Sub total y el total
+
+##### Descripsion del programa Punto Venta
 
 1. Declaramos las librerías de entrada y salida también ponemos el std motivo de esta línea, using namespace std, es el de dar acceso al espacio de nombres (namespace) std, donde se encuentra encerrada toda la librería estándar:
 
@@ -195,6 +212,11 @@ luego se hace una suma total en la que se suma el total de las monedas
 
 ------------
 ### Suma N
+
+Con este programa podemos sumar varios numeros dandole desde el inicio una limitante de cuantos numeros vamos a sumar y despues asiendo un bucle y va sumando todo lo q pongamos en el programa
+
+##### Descripsion del programa
+
 1. Declaramos las librerías de entrada y salida también ponemos el std motivo de esta línea, using namespace std, es el de dar acceso al espacio de nombres (namespace) std, donde se encuentra encerrada toda la librería estándar:
 
 	 	iostream
