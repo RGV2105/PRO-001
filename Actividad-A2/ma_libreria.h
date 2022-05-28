@@ -1,4 +1,4 @@
-// funciones implementadas para RENE BALSECA
+// funciones implementadas para AÑAPA MAROLY
 
 //
 
