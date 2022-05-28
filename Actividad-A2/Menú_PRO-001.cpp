@@ -8,7 +8,7 @@
 using namespace std;
 #include "rj_libreria.h"
 #include "rb_libreria.h"
-//#include "CC_libreria.h"
+#include "ma_libreria.h"
 //#include "DD_libreria.h"
 //#include "DD_libreria.h"
 
@@ -25,7 +25,7 @@ int main()
 			cout<<"1.- Programas de Rene Balseca. \n";
 			cout<<"2.- Programas de Ruano Jharol.\n";
 			cout<<"3.- Programas de Ruano Joseph. \n"; 
-			cout<<"4.- Programas de integrante 4. \n";
+			cout<<"4.- Programas de Maroly Añapa. \n";
 			cout<<"5.- Programas de integrante 5.\n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
@@ -47,7 +47,8 @@ int main()
 					break;
 				case 4:
 					//TRABAJO DEL INTEGRANTE 4.
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DEL INTEGRANTE 4 "<<endl;
+					cout<<"\n AQUI PUEDO REVISAR LOS TRAAJO DE Maroly Añapa. "<<endl;
+					ma_menu();
 					break;
 				case 5:
 					//TRABAJO DEL INTEGRANTE 5.
