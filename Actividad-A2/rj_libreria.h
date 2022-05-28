@@ -108,53 +108,53 @@ cout<<"//=================================================";
 //**************************************************************************
 int RJ_edad()
 {
-	void calcularEdad( int rj_aa,int rj_ma,int rj_da,int rj_an,int rj_mn,int rj_dn);
-    int rj_aa;  
-    int rj_ma; 
-    int rj_da; 
-    int rj_an; 
-    int rj_mn; 
-    int rj_dn; 
+	void calcular_Edad( int jr_aa,int jr_ma,int jr_da,int jr_an,int jr_mn,int jr_dn);
+    int jr_aa;  
+    int jr_ma; 
+    int jr_da; 
+    int jr_an; 
+    int jr_mn; 
+    int jr_dn; 
     cout<<"Ingresar la fecha actual: "<<endl;
     cout << "Año Actual: ";   
-	cin >> rj_aa;
+	cin >> jr_aa;
     cout << "Mes Actual: ";   
-	cin >> rj_ma;
+	cin >> jr_ma;
     cout << "Día Actual: ";  
-	cin >> rj_da;
+	cin >> jr_da;
     cout<<"Ingresar la fecha de nacimiento: "<<endl;
     cout << "Año Nacimiento: ";  
-	cin >> rj_an;
+	cin >> jr_an;
     cout << "Mes de Nacimiento: ";  
-	cin >> rj_mn;
+	cin >> jr_mn;
     cout << "Día de Nacimiento: ";  
-	cin >> rj_dn;
-    calcularEdad(rj_aa,rj_ma,rj_da,rj_an,rj_mn,rj_dn);
+	cin >> jr_dn;
+    calcular_Edad(jr_aa,jr_ma,jr_da,jr_an,jr_mn,jr_dn);
     return 0;
 }
-void calcularEdad( int rj_aa , int rj_ma, int rj_da, int rj_an, int rj_mn, int rj_dn)
+void calcular_Edad( int jr_aa , int jr_ma, int jr_da, int jr_an, int jr_mn, int jr_dn)
 {
-    int rj_dia , rj_mes;
-    if (rj_da<rj_dn)
+    int jr_dia , jr_mes;
+    if (jr_da<jr_dn)
     {  
-        rj_da=rj_da+30; 
-        rj_ma=rj_ma-1; 
-        rj_dia=rj_da-rj_dn; 
+        jr_da=jr_da+30; 
+        jr_ma=jr_ma-1; 
+        jr_dia=jr_da-jr_dn; 
     }
     else 
-        rj_dia=rj_da-rj_dn;
-    if(rj_ma<rj_mn)
+        jr_dia=jr_da-jr_dn;
+    if(jr_ma<jr_mn)
     {   
-        rj_ma=rj_ma+12; 
-        rj_aa=rj_aa-1 ; 
-        rj_mes=rj_ma-rj_mn; 
+        jr_ma=jr_ma+12; 
+        jr_aa=jr_aa-1 ; 
+        jr_mes=jr_ma-jr_mn; 
     }
     else 
-        rj_mes = rj_ma - rj_mn; 
+        jr_mes = jr_ma - jr_mn; 
     cout << "La edad es de: "<<endl;
-    cout << " Años: " <<rj_aa - rj_an << endl; 
-    cout << " Meses: " << rj_mes << endl; 
-    cout << " Días: " << rj_dia << endl; 
+    cout << " Años: " <<jr_aa - jr_an << endl; 
+    cout << " Meses: " << jr_mes << endl; 
+    cout << " Días: " << jr_dia << endl; 
 cout<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa: Calcular edad en días, meses, años"<<endl;
 cout<<"//==> Archivo : RuanoJharol-laedad.cpp"<<endl;

@@ -9,7 +9,7 @@ using namespace std;
 #include "rj_libreria.h"
 #include "rb_libreria.h"
 #include "ma_libreria.h"
-//#include "DD_libreria.h"
+#include "Joy_Libreria.h"
 //#include "DD_libreria.h"
 
 
@@ -43,7 +43,7 @@ int main()
 				case 3:
 					//TRABAJO DEL INTEGRANTE 3.
 					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE Ruano Joseph "<<endl;
-					//jj_menu();
+					RJ_Menu();
 					break;
 				case 4:
 					//TRABAJO DEL INTEGRANTE 4.
