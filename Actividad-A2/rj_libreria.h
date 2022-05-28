@@ -22,8 +22,8 @@ int RJ_sumaN()
 	}while ( rj_x< rj_a);
 		cout<<"El resultado final de la sumatoria es de: "<< rj_y<<endl;
 cout<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Suma de varios números"<<endl;
-cout<<"//==> Archivo : RuanoJharol-sumaN.cpp"<<endl;
+cout<<"//==>Nombre del programa: Suma de varios números"<<endl;
+cout<<"//==>Archivo : RuanoJharol-sumaN.cpp"<<endl;
 cout<<"//==>Autor: Ruano Jama Jharol"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-20"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-12"<<endl;
@@ -55,7 +55,7 @@ int RJ_compara()
 		cout<<"El número mayor es: "<<rj_b<<endl;
 	}
 cout<<"//================================================"<<endl;
-cout<<" //==> Nombre del programa: Comparar 2 números"<<endl;
+cout<<"//==> Nombre del programa: Comparar 2 números"<<endl;
 cout<<"//==> Archivo : RuanoJharol-compara.cpp"<<endl;
 cout<<"//==>Autor: Ruano Jama Jharol"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-20"<<endl;
@@ -93,9 +93,8 @@ int RJ_puntoventa()
 	cout<<"El descuento es de: "<<rj_DES<<"$"<<endl;
 	cout<<"El total a pagar final es de: "<<rj_TPF<<"$"<<endl;
 cout<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Punto de Venta"<<endl;
-cout<<"//==>total a pagar y el valor de la suma de todos los productos "<<endl;
-cout<<"//==> Archivo : RuanoJharol-puntoventa.cpp"<<endl;
+cout<<"//==>Nombre del programa: Punto de Venta"<<endl;
+cout<<"//==>Archivo : RuanoJharol-puntoventa.cpp"<<endl;
 cout<<"//==>Autor: Ruano Jama Jharol"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-20"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-12"<<endl;
@@ -108,56 +107,56 @@ cout<<"//=================================================";
 //**************************************************************************
 int RJ_edad()
 {
-	void calcular_Edad( int jr_aa,int jr_ma,int jr_da,int jr_an,int jr_mn,int jr_dn);
-    int jr_aa;  
-    int jr_ma; 
-    int jr_da; 
-    int jr_an; 
-    int jr_mn; 
-    int jr_dn; 
+	void calcular_Edad( int rj_aa,int rj_ma,int rj_da,int rj_an,int rj_mn,int rj_dn);
+    int rj_aa;  
+    int rj_ma; 
+    int rj_da; 
+    int rj_an; 
+    int rj_mn; 
+    int rj_dn; 
     cout<<"Ingresar la fecha actual: "<<endl;
     cout << "Año Actual: ";   
-	cin >> jr_aa;
+	cin >> rj_aa;
     cout << "Mes Actual: ";   
-	cin >> jr_ma;
+	cin >> rj_ma;
     cout << "Día Actual: ";  
-	cin >> jr_da;
+	cin >> rj_da;
     cout<<"Ingresar la fecha de nacimiento: "<<endl;
     cout << "Año Nacimiento: ";  
-	cin >> jr_an;
+	cin >> rj_an;
     cout << "Mes de Nacimiento: ";  
-	cin >> jr_mn;
+	cin >> rj_mn;
     cout << "Día de Nacimiento: ";  
-	cin >> jr_dn;
-    calcular_Edad(jr_aa,jr_ma,jr_da,jr_an,jr_mn,jr_dn);
+	cin >> rj_dn;
+    calcular_Edad(rj_aa,rj_ma,rj_da,rj_an,rj_mn,rj_dn);
     return 0;
 }
-void calcular_Edad( int jr_aa , int jr_ma, int jr_da, int jr_an, int jr_mn, int jr_dn)
+void calcular_Edad( int rj_aa , int rj_ma, int rj_da, int rj_an, int rj_mn, int rj_dn)
 {
-    int jr_dia , jr_mes;
-    if (jr_da<jr_dn)
+    int rj_dia , rj_mes;
+    if (rj_da<rj_dn)
     {  
-        jr_da=jr_da+30; 
-        jr_ma=jr_ma-1; 
-        jr_dia=jr_da-jr_dn; 
+        rj_da=rj_da+30; 
+        rj_ma=rj_ma-1; 
+        rj_dia=rj_da-rj_dn; 
     }
     else 
-        jr_dia=jr_da-jr_dn;
-    if(jr_ma<jr_mn)
+        rj_dia=rj_da-rj_dn;
+    if(rj_ma<rj_mn)
     {   
-        jr_ma=jr_ma+12; 
-        jr_aa=jr_aa-1 ; 
-        jr_mes=jr_ma-jr_mn; 
+        rj_ma=rj_ma+12; 
+        rj_aa=rj_aa-1 ; 
+        rj_mes=rj_ma-rj_mn; 
     }
     else 
-        jr_mes = jr_ma - jr_mn; 
+        rj_mes = rj_ma - rj_mn; 
     cout << "La edad es de: "<<endl;
-    cout << " Años: " <<jr_aa - jr_an << endl; 
-    cout << " Meses: " << jr_mes << endl; 
-    cout << " Días: " << jr_dia << endl; 
+    cout << " Años: " <<rj_aa - rj_an << endl; 
+    cout << " Meses: " << rj_mes << endl; 
+    cout << " Días: " << rj_dia << endl; 
 cout<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Calcular edad en días, meses, años"<<endl;
-cout<<"//==> Archivo : RuanoJharol-laedad.cpp"<<endl;
+cout<<"//==>Nombre del programa: Calcular edad en días, meses, años"<<endl;
+cout<<"//==>Archivo : RuanoJharol-laedad.cpp"<<endl;
 cout<<"//==>Autor: Ruano Jama Jharol"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-30"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-12"<<endl;
@@ -204,8 +203,8 @@ cout<<" La cantidad de moneda de 50cts es: "<<rj_mc<<" cts"<<endl;
 cout<<" El total de la(s) moneda(s) de 50cts es: "<<rj_mc3<<" $"<<endl;
 
 cout<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Cuenta moneda"<<endl;
-cout<<"//==> Archivo : RuanoJharol-cuentamoneda.cpp"<<endl;
+cout<<"//==>Nombre del programa: Cuenta moneda"<<endl;
+cout<<"//==>Archivo : RuanoJharol-cuentamoneda.cpp"<<endl;
 cout<<"//==>Autor: Ruano Jama Jharol"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-05-17"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-12"<<endl;
@@ -237,19 +236,19 @@ int RJ_menu()
 					system("clear");
 					cout<<"-------------------------------------------"<<endl;
 					cout<<"\n SUMA DE VARIOS NÚMEROS "<<endl;
-					 RJ_sumaN();
+					RJ_sumaN();
 					break;
 				case 2:
 					system("clear");
 					cout<<"-------------------------------------------"<<endl;
 					cout<<"\n COMPARAR 2 NÚMEROS "<<endl;
-					 RJ_compara();
+					RJ_compara();
 					break;
 				case 3:
 					system("clear");
 					cout<<"-------------------------------------------"<<endl;
-					cout<<"PUNTO DE VENTA"<<endl;
-				     RJ_puntoventa();
+					cout<<"\n PUNTO DE VENTA "<<endl;
+				        RJ_puntoventa();
 					break;
 				case 4:
 					system("clear");
