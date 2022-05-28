@@ -244,7 +244,7 @@ int RJ_Menu()
 				case 3:
 					system("clear");
 					cout<<"-------------------------------------------"<<endl;
-					cout<<"Calcular Edad"<<endl;
+					cout<<"\n Calcular Edad"<<endl;
 				     RJ_Edad();
 					break;
 				case 4:
