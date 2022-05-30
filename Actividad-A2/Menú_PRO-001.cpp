@@ -10,7 +10,7 @@ using namespace std;
 #include "rb_libreria.h"
 #include "ma_libreria.h"
 #include "Joy_Libreria.h"
-//#include "DD_libreria.h"
+#include "it_libreria.h"
 
 
 
@@ -26,7 +26,7 @@ int main()
 			cout<<"2.- Programas de Ruano Jharol.\n";
 			cout<<"3.- Programas de Ruano Joseph. \n"; 
 			cout<<"4.- Programas de Maroly Añapa. \n";
-			cout<<"5.- Programas de integrante 5.\n";
+			cout<<"5.- Programas de Isaac Tafur.\n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
@@ -51,8 +51,9 @@ int main()
 					ma_menu();
 					break;
 				case 5:
-					//TRABAJO DEL INTEGRANTE 5.
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DEL INTEGRANTE 5 "<<endl;
+					//TRABAJO DE Isaac Tafur.
+					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE Isaac Tafur "<<endl;
+					it_menu();
 					break;
 				}
 				if(op!=0 && op>5){
